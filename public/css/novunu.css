@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.content_text1{
+    position:relative;
+    top:268px;
+    left: 500px;
+	
+	height: 300px;
+	
+}
+.content_novunu p{
+	font: 17px/20px Arial,Helvetica,sans-serif;
+ 
+    text-align: justify;
+    text-indent: 40px;
+    width:260px;
+     color:#C4A23B;
+	
+}
+
+.content_novunu h1{
+	font: 39px Arial,Helvetica,sans-serif;
+    position:absolute;
+	top:-133px;
+	left:-119px;
+	
+    text-align: justify;
+    text-indent: 40px;
+    width:260px;
+	
+     color:#C4A23B;
+	
+}
+
+#novunu_vizer{
+	
+    left: 6px;
+    position: absolute;
+    top: -88px;
+    
+	}	
+	
+#novunu_vizer1{
+
+    left: -302px;
+    position: absolute;
+    top: -88px;
+	-ms-transform:scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+#kontaktu_vizer{
+	
+    left: 505px;
+    position: absolute;
+    top: 125px;
+    
+	}	
+	
+#kontaktu_vizer1{
+
+    left: 32px;
+    position: absolute;
+    top: 125px;
+	-ms-transform:scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+

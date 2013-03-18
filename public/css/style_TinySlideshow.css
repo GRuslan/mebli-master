@@ -1,0 +1,138 @@
+.slideshow{
+	position:relative;
+	width:810px;
+	left:190px;
+	top:10px;
+	height:735px;
+	}
+#slideshow {
+	list-style:none;
+	color:#666
+	}
+#slideshow span {
+	display:none
+	}
+#wrapper {
+	/* margin:10px 55px;*/
+ 	 display:none}
+#wrapper * {
+	margin:0; 
+	padding:0
+	}
+#fullsize {
+	left:20px;
+	position:relative; 
+	width:770px; 
+	height:578px; 
+	border:1px solid #614C2F; 
+	/*padding:2px; 
+	border:1px solid #614C2F; 
+	background:#7D5A29*/
+	}
+#information {
+	position:absolute; 
+	bottom:0; 
+	width:195px; 
+	right:0px;
+	height:0; 
+	background:#000; 
+	color:#957241; 
+	overflow:hidden; 
+	z-index:200; 
+	opacity:.7; 
+	filter:alpha(opacity=70)
+	}
+#information h3 {
+	text-align:center;
+	padding:4px 8px 3px; 
+	font-size:16px
+	}
+#information p {
+	padding:0 8px 8px
+	}
+#image {
+	width:770px; 
+	height:578px;
+	}
+#image img {
+	position:absolute; 
+	z-index:25; width:auto
+	}
+.imgnav {
+	position:absolute; 
+	width:25%; 
+	height:578px; 
+	cursor:pointer; 
+	z-index:150
+	}
+#imgprev {
+	left:0; 
+	background:url(../images_TinySlideshow/my_left1.png) left center no-repeat
+
+	}
+#imgnext {
+	right:0; 
+	background:url(../images_TinySlideshow/my_right1.png) right center no-repeat
+
+	}
+#imglink {
+	position:absolute; 
+	height:578px; 
+	width:100%; 
+	z-index:100; 
+	opacity:0.25; 
+	filter:alpha(opacity=40)
+	}
+.linkhover {
+	background:url(../images_TinySlideshow/link.gif) center center no-repeat
+
+	}
+#thumbnails {
+	margin-top:25px
+	}
+#slideleft {
+	float:left; 
+	width:20px; 
+	height:136px; 
+	background:url(../images_TinySlideshow/controls_l_2.png) center center no-repeat; 
+	position:relative;
+	left:20px;
+	opacity: 0.65;
+	}
+#slideleft:hover {
+	opacity: 1;
+	}
+#slideright {
+	float:right; 
+	width:20px; 
+	height:136px; 
+	background: url(../images_TinySlideshow/controls_r_2.png) center center no-repeat;
+	position:relative;
+	right:20px;
+	opacity: 0.65;
+	}
+#slideright:hover {
+opacity: 1;
+	}
+#slidearea {
+	float: left; 
+	position:relative; 
+	width:720px; 
+	margin-left:25px; 
+	height:136px; 
+	overflow:hidden
+	}
+#slider {
+	position:absolute; 
+	left:0; 
+	height:135px
+	}
+#slider img {
+	cursor:pointer; 
+	border:1px solid #614C2F; 
+	padding:2px
+	}
+	
+	
+	
+	

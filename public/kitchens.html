@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/header.css"/>
+<link rel="stylesheet" type="text/css" href="css/left_menu.css"/>
+<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+<link rel="stylesheet" type="text/css" href="css/colorbox.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
+<script>
+            jQuery(document).ready(function () {
+                jQuery('.gallery a').colorbox({ 
+					opacity:0.5 , 
+					rel:'group1', 
+					width:"75%", 
+					height:"75%",
+					slideshow:true,
+					transition:"elastic",
+						current: "Зображення {current} з {total}",
+						previous: "попереднє",
+						next: "наступне",
+						close: "закрити",
+						xhrError: "Не вдалось загрузити вміст.",
+						imgError: "Не удалось загрузити зображення.",
+						slideshowStart: "почати слайд-шоу",
+						slideshowStop: "зупинити слайд-шоу"
+					});
+            });
+        </script>
+<title>Кухні</title>
+</head>
+
+<body>
+<div class="container">
+        	<div id="rectangle">
+            	<div id="oval">
+            <a id="logo" href="index.html"> <img src="images/logo.png" /></a>
+            
+            	</div> 
+            <div class="menu_text">
+            <a id="news" href="news.html">НОВИНИ</a>
+            <a id="about_us" href="about_us.html">ПРО&nbspНАС</a>
+            <a id="index" href="index.html">ГОЛОВНА </a>
+            <a id="stock" href="stock.html">АКЦІЇ</a>
+            <a id="contacts"href="contacts.html">КОНТАКТИ</a>
+            </div>
+            </div>
+        <div class="body" >
+        	<div class="left_menu">
+            	<div class="button">
+            	<a id="button1"  href="vitalni.html">Вітальні</a>
+    			<a id="button2"  href="kitchen.html"> Кухні</a>
+				<a id="button3"  href="spalni.html"> Спальні</a>
+				<a id="button4"  href="kabinetu.html"> Кабінети</a>
+		    	<a id="button5"  href="predpokoi.html"> Предпокої</a>
+				<a id="button6"  href=".html"> Меблі зі штучного каменью</a>
+				<a id="button7"  href="news.html"> Меблі для барів та ресторанів</a>
+				<a id="button8"  href="news.html"> Дитячі</a>
+				<a id="button9"  href="news.html"> Столи та стільці</a>
+				<a id="button10" href="news.html"> Матраци</a>
+				<a id="button11" href="news.html"> Аксесуари</a>
+            	</div>            
+           	</div>
+            <div class="gallery">
+            	<a rel="group1" href="gallery/gallery_1/в__тальня 1.jpg"><img  id="kitchen1" src="gallery/gallery_1.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 2.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 3.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 4.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 5.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 6.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 7.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 8.jpg"></a>
+                <a rel="group1" href="gallery/gallery_1/в__тальня 9.jpg"></a>
+            
+            
+            
+            </div>
+            
+        </div>
+      
+       	
+       		
+        	<p id="footer" >Copyright © 2013 Салон меблів "VIP Меблі".</p>
+		
+	</div>
+
+</body>
+</html>

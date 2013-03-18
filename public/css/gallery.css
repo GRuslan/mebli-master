@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gallery{
+	width:800px;
+	position:relative;
+	left:200px;
+	top:95px;}
+	
+	#kitchen_1{
+		position:inherit;
+		margin-top:10px;
+		margin-left:10px;}
