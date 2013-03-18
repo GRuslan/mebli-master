@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.vitaemo_vas{
+	position:relative;
+	top:0px;
+	width:1000px;
+	height:242px;
+	}
+
+#zagolovok_vitaemo_vas{
+	position:absolute;
+	top:31px;
+	left:368px;
+	color:#ffffff;
+	font:18px Cambria, sans-serif;
+	}
+#text_vitaemo_vas{
+	position:absolute;
+	width:930px;
+	height:127px;
+	text-align: justify;
+	text-indent: 1.5em;	
+	top:65px;
+	left:35px;
+	color:#ffffff;
+	font: Cambria, sans-serif;
+		
+		
+		}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer{
+	position:relative;
+	width:1000px;
+	
+	}
+#copyright{
+	color:#ffffff;
+	font:25px Cambria, sans-serif;
+	text-decoration:none;
+	position: relative;
+	bottom:0px;
+	text-align: center;
+	}
+	
+.footer_contakt{
+    position:relative;
+	width:1000px;
+	top: 800px;
+	
+	}
+
+.footer_about{
+    position:relative;
+	width:1000px;
+	top: 755px;
+	
+	}
